@@ -1,8 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+header {
+  height: 5vh;
 }
 
 main {
@@ -15,4 +23,7 @@ main {
 #grid {
   display: flex;
   flex-direction: column;
+  border: 2px solid rgb(141, 113, 113);
+  border-radius: 5px;
 }
+
