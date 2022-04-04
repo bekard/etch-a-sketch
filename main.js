@@ -24,11 +24,11 @@ function createRow(rowSize) {
 
 function createCell() {
     const cell = document.createElement("div");
-    cell.style.border = "0.1px solid grey";
+    cell.style.border = "1px solid #025492";
     cell.style.width = `${SIDE_LENGTH}px`;
     cell.style.height = `${SIDE_LENGTH}px`;
     cell.classList.add("cell");
-    cell.addEventListener("mouseenter", () => cell.style.backgroundColor = "blue");
+    cell.addEventListener("mouseenter", () => cell.style.backgroundColor = "#F8CF40");
     return cell;
 }
 

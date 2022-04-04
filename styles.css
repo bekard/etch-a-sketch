@@ -10,7 +10,38 @@ body {
 }
 
 header {
+  padding-inline: 3vw;
+  display: flex;
+  height: 7vh;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #025492;
+}
+
+.font {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+#title {
+  font-size: 30px;
+  color: #F8CF40;
+}
+
+#clear {
+  box-sizing: border-box;
+  font-size: 25px;
+  width: 15vw;
   height: 5vh;
+  background-color: #025492;
+  color: #F8CF40;
+  border-radius: 5px;
+  border: 3px solid #31B4F2;
+}
+
+#clear:hover {
+  background-color: #31B4F2;
+  border-color: #F8CF40;
 }
 
 main {
@@ -18,12 +49,15 @@ main {
   display:flex;
   justify-content: center;
   align-items: center;
+  background-color: #31B4F2;
 }
 
 #grid {
   display: flex;
   flex-direction: column;
-  border: 2px solid rgb(141, 113, 113);
+  border: 1px solid #025492;
   border-radius: 5px;
 }
+
+
 
